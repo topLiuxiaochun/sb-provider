@@ -17,6 +17,6 @@ public class ComputeController {
 		//获取当前服务实例
 		ServiceInstance instance = client.getLocalServiceInstance();
 		int sum = a + b;
-		return "host:" + instance.getHost() + ", port:" + instance.getPort() + ", serverId:" + instance.getServiceId() + ",sum:" + sum;
+		return "host:" + instance.getHost() + ", port:" + instance.getPort() + ", serverId:" + instance.getServiceId() + ", sum:" + sum;
 	}
 }
